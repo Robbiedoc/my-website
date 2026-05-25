@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/robli/Downloads/robert_lipton_grants_4.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robert Lipton, Ph.D. — Grant Writing &amp; Research Consulting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link href="./Robert Lipton, Ph.D. — Grant Writing &amp; Research Consulting_files/css2" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #1a1a18;
+    --ink-mid: #4a4a45;
+    --ink-light: #7a7a72;
+    --cream: #f7f4ee;
+    --warm-white: #fdfcf9;
+    --gold: #b8903a;
+    --gold-light: #e8d9b0;
+    --rule: #d8d2c4;
+    --accent: #2c4a3e;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(253, 252, 249, 0.95);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--rule);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+  }
+
+  .nav-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+    color: var(--ink);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-mid);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--gold); }
+
+  /* HERO */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+  }
+
+  .hero-left {
+    background: var(--accent);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 5rem 6rem 6rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-left::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 300px; height: 300px;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 50%;
+  }
+
+  .hero-left::after {
+    content: '';
+    position: absolute;
+    bottom: -80px; left: -80px;
+    width: 400px; height: 400px;
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 50%;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 4vw, 3.8rem);
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--gold-light);
+    margin-bottom: 2rem;
+    opacity: 0.85;
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.75);
+    max-width: 380px;
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-cta {
+    display: inline-block;
+    padding: 0.85rem 2rem;
+    background: var(--gold);
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    align-self: flex-start;
+  }
+
+  .hero-cta:hover { background: #9a7830; transform: translateY(-1px); }
+
+  .hero-right {
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 5rem;
+    gap: 2rem;
+  }
+
+  .stat-card {
+    width: 100%;
+    max-width: 340px;
+    border: 1px solid var(--rule);
+    background: var(--warm-white);
+    padding: 2rem 2.5rem;
+    position: relative;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--gold);
+  }
+
+  .stat-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.4rem;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+  }
+
+  /* SECTION BASE */
+  section { padding: 6rem 0; }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+
+  .section-label {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+  }
+
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    line-height: 1.2;
+    color: var(--ink);
+    margin-bottom: 1.5rem;
+  }
+
+  .rule {
+    width: 48px;
+    height: 2px;
+    background: var(--gold);
+    margin-bottom: 2.5rem;
+  }
+
+  /* SERVICES */
+  #services { background: var(--warm-white); }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin-top: 3rem;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
+
+  .service-item {
+    background: var(--warm-white);
+    padding: 2.5rem 2rem;
+    transition: background 0.2s;
+  }
+
+  .service-item:hover { background: var(--cream); }
+
+  .service-icon {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    display: block;
+  }
+
+  .service-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: var(--ink);
+    margin-bottom: 0.75rem;
+  }
+
+  .service-desc {
+    font-size: 0.9rem;
+    color: var(--ink-mid);
+    line-height: 1.7;
+  }
+
+  /* ABOUT */
+  #about { background: var(--cream); }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5rem;
+    align-items: start;
+  }
+
+  .about-body {
+    font-size: 1.05rem;
+    color: var(--ink-mid);
+    line-height: 1.85;
+  }
+
+  .about-body p + p { margin-top: 1.25rem; }
+
+  .credentials {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .credential {
+    border-left: 2px solid var(--gold);
+    padding-left: 1rem;
+  }
+
+  .credential-degree {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--ink);
+  }
+
+  .credential-school {
+    font-size: 0.82rem;
+    color: var(--ink-light);
+    margin-top: 0.1rem;
+  }
+
+  /* EXPERIENCE */
+  #experience { background: var(--warm-white); }
+
+  .exp-list {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .exp-item {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .exp-item:first-child { border-top: 1px solid var(--rule); }
+
+  .exp-org {
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--ink-light);
+    text-transform: uppercase;
+    padding-top: 0.15rem;
+  }
+
+  .exp-role {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+  }
+
+  .exp-desc {
+    font-size: 0.9rem;
+    color: var(--ink-mid);
+    line-height: 1.7;
+  }
+
+  /* RESULTS */
+  #results { background: var(--accent); padding: 5rem 0; }
+
+  #results .section-title { color: #fff; }
+  #results .section-label { color: var(--gold-light); }
+  #results .rule { background: var(--gold-light); }
+
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .result-item {
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 2rem;
+  }
+
+  .result-amount {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--gold-light);
+    margin-bottom: 0.5rem;
+    line-height: 1;
+  }
+
+  .result-desc {
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.6;
+  }
+
+  /* CONTACT */
+  #contact { background: var(--cream); }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: start;
+  }
+
+  .contact-body {
+    font-size: 1.05rem;
+    color: var(--ink-mid);
+    line-height: 1.85;
+  }
+
+  .contact-form { display: flex; flex-direction: column; gap: 1rem; }
+
+  .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+
+  .form-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+  }
+
+  .form-input, .form-textarea {
+    background: var(--warm-white);
+    border: 1px solid var(--rule);
+    padding: 0.75rem 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    color: var(--ink);
+    outline: none;
+    transition: border-color 0.2s;
+    width: 100%;
+  }
+
+  .form-input:focus, .form-textarea:focus { border-color: var(--gold); }
+
+  .form-textarea { resize: vertical; min-height: 130px; }
+
+  .submit-btn {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    background: var(--accent);
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background 0.2s;
+  }
+
+  .submit-btn:hover { background: #1e352b; }
+
+  /* FOOTER */
+  footer {
+    background: var(--ink);
+    color: rgba(255,255,255,0.45);
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.82rem;
+    letter-spacing: 0.05em;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; }
+    .hero-left { padding: 5rem 2.5rem; }
+    .hero-right { padding: 4rem 2.5rem; }
+    .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+    .services-grid, .results-grid { grid-template-columns: 1fr; }
+    .exp-item { grid-template-columns: 1fr; gap: 0.5rem; }
+    nav { padding: 0 1.5rem; }
+    .nav-links { gap: 1.2rem; }
+    .container { padding: 0 1.5rem; }
+  }
+
+  @media (max-width: 600px) {
+    .nav-links { display: none; }
+    .hero-left { padding: 4rem 1.5rem; }
+    .hero-right { padding: 3rem 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-name">Robert Lipton, Ph.D.</span>
+  <ul class="nav-links">
+    <li><a href="file:///C:/Users/robli/Downloads/robert_lipton_grants_4.html#services">Services</a></li>
+    <li><a href="file:///C:/Users/robli/Downloads/robert_lipton_grants_4.html#about">About</a></li>
+    <li><a href="file:///C:/Users/robli/Downloads/robert_lipton_grants_4.html#experience">Experience</a></li>
+    <li><a href="file:///C:/Users/robli/Downloads/robert_lipton_grants_4.html#results">Results</a></li>
+    <li><a href="file:///C:/Users/robli/Downloads/robert_lipton_grants_4.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-eyebrow">Grant Writing &amp; Research Consulting</p>
+    <h1 class="hero-name">Robert<br>Lipton,<br>Ph.D.</h1>
+    <p class="hero-title">Epidemiologist. Grant strategist. Trusted partner.</p>
+    <p class="hero-desc">I help research programs and nonprofits write and win grants — from community foundation awards to major NIH center grants.</p>
+    <a href="file:///C:/Users/robli/Downloads/robert_lipton_grants_4.html#contact" class="hero-cta">Start a conversation</a>
+  </div>
+  <div class="hero-right">
+    <div class="stat-card">
+      <div class="stat-number">$68M+</div>
+      <div class="stat-label">In grant funding secured</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">50+</div>
+      <div class="stat-label">Peer-reviewed publications</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">30+</div>
+      <div class="stat-label">Years of research &amp; grant experience</div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <p class="section-label">What I do</p>
+    <h2 class="section-title">Full-cycle grant development,<br>from strategy to submission</h2>
+    <div class="rule"></div>
+    <div class="services-grid">
+      <div class="service-item">
+        <span class="service-icon">🏛</span>
+        <h3 class="service-name">NIH &amp; Federal Grants</h3>
+        <p class="service-desc">R01s, U01s, multi-site cooperative agreements, and large center grants. I know what study sections want — because I've sat on them.</p>
+      </div>
+      <div class="service-item">
+        <span class="service-icon">🌿</span>
+        <h3 class="service-name">Foundation &amp; Community Grants</h3>
+        <p class="service-desc">Foundation proposals, programmatic grants, and community-level funding for nonprofits serving vulnerable and underserved populations.</p>
+      </div>
+      <div class="service-item">
+        <span class="service-icon">🔬</span>
+        <h3 class="service-name">Research Program Development</h3>
+        <p class="service-desc">Study design, protocol development, and research program strategy for academic medical centers and public health institutions.</p>
+      </div>
+      <div class="service-item">
+        <span class="service-icon">📋</span>
+        <h3 class="service-name">Grant Review &amp; Editing</h3>
+        <p class="service-desc">Scientific rigor assessment, reviewer-perspective critique, and strengthening of in-progress applications before submission.</p>
+      </div>
+      <div class="service-item">
+        <span class="service-icon">📊</span>
+        <h3 class="service-name">Data Analysis &amp; Synthesis</h3>
+        <p class="service-desc">Large and complex dataset analysis, spatial epidemiology, GIS mapping, and research synthesis to support grant narratives and publications.</p>
+      </div>
+      <div class="service-item">
+        <span class="service-icon">🤝</span>
+        <h3 class="service-name">Nonprofit Program Development</h3>
+        <p class="service-desc">Program design and grant strategy for nonprofits working in health equity, substance use, violence prevention, and community health.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <p class="section-label">About</p>
+    <h2 class="section-title">The researcher who knows<br>how reviewers think</h2>
+    <div class="rule"></div>
+    <div class="about-grid">
+      <div class="about-body">
+        <p>I'm a chronic disease and spatial epidemiologist with deep expertise in alcohol and health, violence, tobacco, health equity, and the social determinants of health. My research has been used in communities across California and the US to strengthen efforts on underage tobacco sales, violence reduction, and health disparities.</p>
+        <p>I've held faculty and leadership positions at Harvard Medical School, Beth Israel Deaconess Medical Center, the University of Michigan, and the Prevention Research Center (PIRE). As Scientific and Program Director at Alcohol Justice, I've built and led research programs serving diverse and underserved populations locally and internationally.</p>
+        <p>What sets me apart: I've sat on grant review panels and know exactly what reviewers look for — and what kills an otherwise strong application. I apply that insider perspective to every proposal I work on. I'm a quick study on new research areas, determined, and committed to doing the best work possible on every engagement.</p>
+      </div>
+      <div>
+        <p class="section-label" style="margin-bottom:1.5rem;">Education</p>
+        <div class="credentials">
+          <div class="credential">
+            <div class="credential-degree">Ph.D., Epidemiology</div>
+            <div class="credential-school">University of California, Los Angeles</div>
+          </div>
+          <div class="credential">
+            <div class="credential-degree">M.P.H., Epidemiology</div>
+            <div class="credential-school">University of California, Berkeley</div>
+          </div>
+          <div class="credential">
+            <div class="credential-degree">M.A., Development Economics</div>
+            <div class="credential-school">Stanford University</div>
+          </div>
+          <div class="credential">
+            <div class="credential-degree">A.B., Philosophy</div>
+            <div class="credential-school">Stanford University</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <p class="section-label">Experience</p>
+    <h2 class="section-title">Positions held</h2>
+    <div class="rule"></div>
+    <div class="exp-list">
+      <div class="exp-item">
+        <div class="exp-org">Harvard Medical School / Beth Israel Deaconess</div>
+        <div>
+          <div class="exp-role">Scientific Director, Emergency Medicine</div>
+          <div class="exp-desc">Led research program design, grant development, and data analysis at a major academic medical center affiliated with Harvard Medical School.</div>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-org">University of Michigan</div>
+        <div>
+          <div class="exp-role">Associate Professor, Emergency Medicine</div>
+          <div class="exp-desc">Faculty researcher and program leader in epidemiology and health services research.</div>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-org">Prevention Research Center (PIRE)</div>
+        <div>
+          <div class="exp-role">Senior Research Scientist</div>
+          <div class="exp-desc">Spatial epidemiology research on alcohol, violence, tobacco, and health equity. PI for CDC-funded CalBRACE climate and health program.</div>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-org">CA University of Science &amp; Medicine</div>
+        <div>
+          <div class="exp-role">Associate Professor</div>
+          <div class="exp-desc">Research faculty with focus on epidemiology and public health program development.</div>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-org">Alcohol Justice</div>
+        <div>
+          <div class="exp-role">Scientific &amp; Program Director</div>
+          <div class="exp-desc">Leading research, program development, and grant strategy for a nonprofit focused on alcohol policy and health equity.</div>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-org">ScienceDocs</div>
+        <div>
+          <div class="exp-role">Senior Grant Consultant</div>
+          <div class="exp-desc">Supported clients at Rutgers, USC, SUNY Downstate, and Indiana University in developing major NIH center grants and research proposals.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results">
+  <div class="container">
+    <p class="section-label">Selected results</p>
+    <h2 class="section-title">Grant wins that made a difference</h2>
+    <div class="rule"></div>
+    <div class="results-grid">
+      <div class="result-item">
+        <div class="result-amount">$37M</div>
+        <div class="result-desc">Indiana University Medical System — Translational Science Center Grant (NIH/NCATS)</div>
+      </div>
+      <div class="result-item">
+        <div class="result-amount">$15M</div>
+        <div class="result-desc">Emergency Department Safety Assessment and Follow-up Evaluation (EDSAFE) — NIH/NIMH multi-site clinical trial</div>
+      </div>
+      <div class="result-item">
+        <div class="result-amount">$68M+</div>
+        <div class="result-desc">Total grant funding secured across career as PI, co-PI, and co-investigator at NIH, CDC, and foundations</div>
+      </div>
+      <div class="result-item">
+        <div class="result-amount">CDC</div>
+        <div class="result-desc">CalBRACE — California's statewide climate and public health resilience program, led as Principal Investigator</div>
+      </div>
+      <div class="result-item">
+        <div class="result-amount">50+</div>
+        <div class="result-desc">Peer-reviewed publications in spatial epidemiology, alcohol &amp; health, violence, tobacco, and health equity</div>
+      </div>
+      <div class="result-item">
+        <div class="result-amount">Local → Federal</div>
+        <div class="result-desc">Grant experience spanning community foundation awards, state agencies, and the full range of NIH mechanisms</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <p class="section-label">Get in touch</p>
+    <h2 class="section-title">Let's talk about your<br>next grant</h2>
+    <div class="rule"></div>
+    <div class="contact-grid">
+      <div class="contact-body">
+        <p>Whether you're developing a first-time foundation proposal or a complex NIH center grant, I can help you navigate the process, sharpen your science, and put together a compelling case for funding.</p>
+        <p style="margin-top:1.25rem;">I work with research programs, academic medical centers, public health institutions, and nonprofits — particularly those serving underserved and vulnerable populations.</p>
+        <p style="margin-top:1.25rem; font-weight:500; color: var(--ink);">Based in San Rafael, CA. Available for remote and in-person engagements.</p>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label class="form-label">Your name</label>
+          <input class="form-input" type="text" placeholder="Jane Smith" required="">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input class="form-input" type="email" placeholder="jane@organization.org" required="">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Organization</label>
+          <input class="form-input" type="text" placeholder="Your institution or nonprofit">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Tell me about your grant needs</label>
+          <textarea class="form-textarea" placeholder="What type of grant are you working on? What&#39;s the timeline?"></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send message</button>
+        <p id="form-msg" style="font-size:0.85rem; color: var(--accent); display:none; margin-top:0.5rem;">✓ Message sent — I'll be in touch soon.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Robert Lipton, Ph.D. &nbsp;·&nbsp; San Rafael, CA &nbsp;·&nbsp; Grant Writing &amp; Research Consulting</p>
+</footer>
+
+<script>
+function handleSubmit(e) {
+  e.preventDefault();
+  document.getElementById('form-msg').style.display = 'block';
+  e.target.reset();
+}
+</script>
+
+
+
+</body></html>
